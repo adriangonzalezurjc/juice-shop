@@ -65,7 +65,7 @@ Desarrollo de Funcionalidades:
 - Implementar controles de validación y manejo de errores para garantizar la integridad y seguridad de los datos.
 
 Seguridad en la Implementación:
--Aplicar prácticas de programación segura, como la sanitización de entradas y la prevención de vulnerabilidades de inyección.
+- Aplicar prácticas de programación segura, como la sanitización de entradas y la prevención de vulnerabilidades de inyección.
 
 ### 4. Pruebas
 
