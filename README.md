@@ -101,3 +101,46 @@ Monitorización y Registro:
 - Implementar sistemas de monitorización para supervisar el rendimiento y la disponibilidad de la aplicación en tiempo real.
 - Configurar registros detallados para registrar eventos y alertas, facilitando la detección temprana de problemas y actividades sospechosas.
 
+
+
+## Paso a Paso para Crear la Aplicación (DevSecOps)
+
+Para crear el proyecto del Juice Shop desplegado en Docker aplicando DevSecOps, se deben seguir los siguientes pasos:
+
+### 1. Integración de Seguridad desde el Inicio
+
+Incorporar Pruebas de Seguridad desde el Comienzo del Proyecto:
+- Integrar herramientas de análisis estático de código (SAST) en el proceso de desarrollo para identificar posibles vulnerabilidades en el código fuente.
+- Implementar pruebas de seguridad automatizadas en el pipeline de integración continua para detectar vulnerabilidades en cada iteración del desarrollo.
+
+### 2. Automatización de Pruebas de Seguridad
+
+Desarrollar Pruebas de Seguridad Automatizadas:
+- Crear pruebas automatizadas que evalúen la seguridad de la aplicación en todas las etapas del ciclo de vida del desarrollo.
+- Utilizar herramientas de análisis dinámico de seguridad (DAST) para realizar pruebas de penetración automatizadas y encontrar vulnerabilidades en tiempo de ejecución.
+
+### 3. Implementación de Controles de Seguridad
+
+Integrar Controles de Seguridad en el Proceso de Despliegue:
+- Configurar herramientas de escaneo de contenedores para identificar vulnerabilidades en las imágenes Docker antes de desplegarlas en producción.
+- Utilizar políticas de seguridad basadas en código para garantizar que las configuraciones de seguridad sean consistentes en todos los entornos de implementación.
+
+### 4. Monitoreo Continuo de Seguridad
+
+Establecer Monitoreo Continuo de Seguridad:
+- Implementar sistemas de monitoreo de seguridad en tiempo real para detectar y responder rápidamente a posibles amenazas.
+- Configurar alertas automatizadas que notifiquen al equipo de desarrollo sobre posibles brechas de seguridad o actividades sospechosas.
+
+### 5. Retroalimentación y Mejora Continua
+
+Fomentar la Retroalimentación y la Mejora Continua:
+- Realizar revisiones periódicas de seguridad para evaluar el estado actual de la aplicación y identificar áreas de mejora.
+- Utilizar métricas de seguridad para medir el rendimiento del equipo en la gestión de vulnerabilidades y la implementación de controles de seguridad.
+
+### 6. Colaboración entre Equipos
+
+Promover la Colaboración entre Equipos de Desarrollo y Operaciones:
+- Establecer un enfoque de trabajo colaborativo entre los equipos de desarrollo, operaciones y seguridad para garantizar una implementación eficaz de DevSecOps.
+- Facilitar la comunicación y el intercambio de conocimientos entre los equipos para fomentar una cultura de seguridad en toda la organización.
+
+Al seguir estos pasos y aplicar los principios de DevSecOps, se puede garantizar que el proyecto del Juice Shop desplegado en Docker se desarrolle de manera segura y se mantenga protegido contra amenazas de seguridad en todo momento.
