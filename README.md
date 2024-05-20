@@ -199,5 +199,8 @@ Durante el desarrollo de la última tarea, se encontraron algunos problemas que 
 
 - Aunque se consiguió exitosamente desplegar la herramienta **Clair**, una plataforma de análisis de seguridad de imágenes Docker, se encontró un error al intentar escanear la imagen de Juice-Shop. Clair alertó del siguiente error:
 `[CRIT] ▶ Could not analyze layer: Clair responded with a failure: Got response 400 with message {"Error":{"Message":"could not find layer"}}` Este problema está tipificado en la sección de Troubleshooting de Clair y, aunque no parece ser grave, se pretende solucionar para futuras entregas. Clair es una herramienta poderosa para la detección de vulnerabilidades en imágenes Docker y su integración exitosa mejorará significativamente las capacidades de análisis de seguridad.
+- Espacio insuficiente en la VM Debian 12: Inicialmente configurada con 32 GB de almacenamiento, esta VM resultó insuficiente para manejar todas las herramientas y operaciones requeridas, lo que llevó a su fallo y a la necesidad de crear una nueva VM con 75 GB de almacenamiento, resultando en una pérdida de tiempo significativa.
+
+
 
 
