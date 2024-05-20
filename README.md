@@ -198,4 +198,6 @@ En resumen, esta evaluación de seguridad automatizada identificó una serie de 
 Durante el desarrollo de la última tarea, se encontraron algunos problemas que merecen ser destacados:
 
 - Aunque se consiguió exitosamente desplegar la herramienta **Clair**, una plataforma de análisis de seguridad de imágenes Docker, se encontró un error al intentar escanear la imagen de Juice-Shop. Clair alertó del siguiente error:
-[CRIT] ▶ Could not analyze layer: Clair responded with a failure: Got response 400 with message {"Error":{"Message":"could not find layer"}} Este problema está tipificado en la sección de Troubleshooting de Clair y, aunque no parece ser grave, se pretende solucionar para futuras entregas. Clair es una herramienta poderosa para la detección de vulnerabilidades en imágenes Docker y su integración exitosa mejorará significativamente las capacidades de análisis de seguridad.
+`[CRIT] ▶ Could not analyze layer: Clair responded with a failure: Got response 400 with message {"Error":{"Message":"could not find layer"}}` Este problema está tipificado en la sección de Troubleshooting de Clair y, aunque no parece ser grave, se pretende solucionar para futuras entregas. Clair es una herramienta poderosa para la detección de vulnerabilidades en imágenes Docker y su integración exitosa mejorará significativamente las capacidades de análisis de seguridad.
+
+
