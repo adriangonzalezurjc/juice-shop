@@ -192,3 +192,10 @@ El uso de estas herramientas permitió obtener una visión integral de las vulne
 - Docker Scout reveló que las imágenes Docker utilizadas contenían varias vulnerabilidades conocidas, lo que resaltó la necesidad de mantener las imágenes actualizadas y aplicar parches de seguridad.
 
 En resumen, esta evaluación de seguridad automatizada identificó una serie de vulnerabilidades críticas en Juice-Shop, proporcionando una base sólida para mejorar la seguridad de la aplicación y reducir los riesgos asociados.
+
+### Problemas encontrados
+
+Durante el desarrollo de la última tarea, se encontraron algunos problemas que merecen ser destacados:
+
+- Aunque se consiguió exitosamente desplegar la herramienta **Clair**, una plataforma de análisis de seguridad de imágenes Docker, se encontró un error al intentar escanear la imagen de Juice-Shop. Clair alertó del siguiente error:
+[CRIT] ▶ Could not analyze layer: Clair responded with a failure: Got response 400 with message {"Error":{"Message":"could not find layer"}} Este problema está tipificado en la sección de Troubleshooting de Clair y, aunque no parece ser grave, se pretende solucionar para futuras entregas. Clair es una herramienta poderosa para la detección de vulnerabilidades en imágenes Docker y su integración exitosa mejorará significativamente las capacidades de análisis de seguridad.
