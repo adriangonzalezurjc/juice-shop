@@ -152,7 +152,7 @@ Al seguir estos pasos y aplicar los principios de DevSecOps, se puede garantizar
 
 #### 1. Nodejsscan:
 
-- Descripción: Nodejsscan es una herramienta de análisis estático diseñada para identificar vulnerabilidades en aplicaciones Node.js.
+- <u>Descripción:</u>. Nodejsscan es una herramienta de análisis estático diseñada para identificar vulnerabilidades en aplicaciones Node.js.
 - Motivo de selección: Dada la naturaleza de Juice-Shop, una aplicación construida sobre Node.js, Nodejsscan es ideal para identificar problemas de seguridad específicos de este entorno.
 
 #### 2. SonarQube:
