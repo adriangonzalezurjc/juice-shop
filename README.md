@@ -144,3 +144,51 @@ Promover la Colaboración entre Equipos de Desarrollo y Operaciones:
 - Facilitar la comunicación y el intercambio de conocimientos entre los equipos para fomentar una cultura de seguridad en toda la organización.
 
 Al seguir estos pasos y aplicar los principios de DevSecOps, se puede garantizar que el proyecto del Juice Shop desplegado en Docker se desarrolle de manera segura y se mantenga protegido contra amenazas de seguridad en todo momento.
+
+
+## Evaluación de seguridad mediante herramientas automáticas
+
+### Análisis estático
+
+#### 1. Nodejsscan:
+
+- Descripción: Nodejsscan es una herramienta de análisis estático diseñada para identificar vulnerabilidades en aplicaciones Node.js.
+- Motivo de selección: Dada la naturaleza de Juice-Shop, una aplicación construida sobre Node.js, Nodejsscan es ideal para identificar problemas de seguridad específicos de este entorno.
+
+#### 2. SonarQube:
+
+- Descripción: SonarQube es una plataforma de inspección continua de código que realiza análisis estáticos para detectar bugs, vulnerabilidades y deuda técnica.
+- Motivo de selección: SonarQube proporciona una visión profunda de la calidad del código y es altamente configurable, lo que lo hace adecuado para proyectos de cualquier tamaño.
+
+### Análisis dinámico
+
+#### 1. OWASP ZAP (Zed Attack Proxy):
+
+- Descripción: OWASP ZAP es una herramienta de seguridad integrada para encontrar vulnerabilidades en aplicaciones web durante su ejecución.
+- Motivo de selección: ZAP es ampliamente reconocida y utilizada en la comunidad de seguridad por su capacidad para realizar pruebas de penetración automatizadas y manuales.
+
+### Análisis de imágenes Docker
+
+#### 1. Docker Scout:
+
+- Descripción: Docker Scout es una herramienta de análisis de seguridad que escanea imágenes Docker en busca de vulnerabilidades conocidas.
+- Motivo de selección: Docker Scout permite identificar y mitigar riesgos en las imágenes Docker, asegurando que las aplicaciones desplegadas en contenedores sean seguras.
+
+### Justificación de las herramientas seleccionadas
+
+Las herramientas seleccionadas para esta evaluación de seguridad fueron escogidas debido a sus capacidades específicas y su relevancia en el contexto de Juice-Shop:
+
+- Nodejsscan y SonarQube fueron seleccionadas para el análisis estático debido a su habilidad para examinar el código fuente sin ejecutarlo, proporcionando una visión temprana de posibles vulnerabilidades y malas prácticas de codificación.
+- OWASP ZAP fue elegido para el análisis dinámico porque permite interactuar con la aplicación en tiempo real, detectando vulnerabilidades que sólo pueden ser identificadas cuando la aplicación está en funcionamiento.
+- Docker Scout se utilizó para el análisis de imágenes Docker, ya que es crucial asegurar que las imágenes contenedorizadas, como las usadas en Juice-Shop, no contengan vulnerabilidades conocidas que puedan ser explotadas.
+
+### Resultados de seguridad y vulnerabilidades conocidas
+
+El uso de estas herramientas permitió obtener una visión integral de las vulnerabilidades presentes en Juice-Shop:
+
+- Nodejsscan identificó múltiples vulnerabilidades de inyección SQL, validación de entrada deficiente y problemas relacionados con la seguridad de las dependencias.
+- SonarQube destacó varias áreas con código no seguro, problemas de calidad del código y posibles fallos que podrían llevar a vulnerabilidades de seguridad.
+- OWASP ZAP detectó vulnerabilidades de seguridad en la aplicación en ejecución, incluyendo la inyección SQL y la exposición de datos sensibles.
+- Docker Scout reveló que las imágenes Docker utilizadas contenían varias vulnerabilidades conocidas, lo que resaltó la necesidad de mantener las imágenes actualizadas y aplicar parches de seguridad.
+
+En resumen, esta evaluación de seguridad automatizada identificó una serie de vulnerabilidades críticas en Juice-Shop, proporcionando una base sólida para mejorar la seguridad de la aplicación y reducir los riesgos asociados.
