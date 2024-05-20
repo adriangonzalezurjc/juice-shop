@@ -152,27 +152,27 @@ Al seguir estos pasos y aplicar los principios de DevSecOps, se puede garantizar
 
 #### 1. Nodejsscan:
 
-- <u>Descripción:</u>. Nodejsscan es una herramienta de análisis estático diseñada para identificar vulnerabilidades en aplicaciones Node.js.
-- Motivo de selección: Dada la naturaleza de Juice-Shop, una aplicación construida sobre Node.js, Nodejsscan es ideal para identificar problemas de seguridad específicos de este entorno.
+- **Descripción:** Nodejsscan es una herramienta de análisis estático diseñada para identificar vulnerabilidades en aplicaciones Node.js.
+- **Motivo de selección:** Dada la naturaleza de Juice-Shop, una aplicación construida sobre Node.js, Nodejsscan es ideal para identificar problemas de seguridad específicos de este entorno.
 
 #### 2. SonarQube:
 
-- Descripción: SonarQube es una plataforma de inspección continua de código que realiza análisis estáticos para detectar bugs, vulnerabilidades y deuda técnica.
-- Motivo de selección: SonarQube proporciona una visión profunda de la calidad del código y es altamente configurable, lo que lo hace adecuado para proyectos de cualquier tamaño.
+- **Descripción:** SonarQube es una plataforma de inspección continua de código que realiza análisis estáticos para detectar bugs, vulnerabilidades y deuda técnica.
+- **Motivo de selección:** SonarQube proporciona una visión profunda de la calidad del código y es altamente configurable, lo que lo hace adecuado para proyectos de cualquier tamaño.
 
 ### Análisis dinámico
 
 #### 1. OWASP ZAP (Zed Attack Proxy):
 
-- Descripción: OWASP ZAP es una herramienta de seguridad integrada para encontrar vulnerabilidades en aplicaciones web durante su ejecución.
-- Motivo de selección: ZAP es ampliamente reconocida y utilizada en la comunidad de seguridad por su capacidad para realizar pruebas de penetración automatizadas y manuales.
+- **Descripción:** OWASP ZAP es una herramienta de seguridad integrada para encontrar vulnerabilidades en aplicaciones web durante su ejecución.
+- **Motivo de selección:** ZAP es ampliamente reconocida y utilizada en la comunidad de seguridad por su capacidad para realizar pruebas de penetración automatizadas y manuales.
 
 ### Análisis de imágenes Docker
 
 #### 1. Docker Scout:
 
-- Descripción: Docker Scout es una herramienta de análisis de seguridad que escanea imágenes Docker en busca de vulnerabilidades conocidas.
-- Motivo de selección: Docker Scout permite identificar y mitigar riesgos en las imágenes Docker, asegurando que las aplicaciones desplegadas en contenedores sean seguras.
+- **Descripción:** Docker Scout es una herramienta de análisis de seguridad que escanea imágenes Docker en busca de vulnerabilidades conocidas.
+- **Motivo de selección:** Docker Scout permite identificar y mitigar riesgos en las imágenes Docker, asegurando que las aplicaciones desplegadas en contenedores sean seguras.
 
 ### Justificación de las herramientas seleccionadas
 
